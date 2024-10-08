@@ -1,0 +1,838 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto+Slab", sans-serif;
+}
+
+body {
+    width: 100%;
+    align-items: center;
+
+}
+
+.Logo {
+    height: 50px;
+    width: auto;
+}
+
+.Logoo {
+    height: 20px;
+    width: auto;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #dcdcdc;
+    padding: 5px 50px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#NavBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#close {
+    display: none;
+}
+
+#NavBar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#NavBar li a {
+
+    text-decoration: none;
+    font-size: 18px;
+    color: #202020;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+}
+
+#NavBar li a:hover,
+#NavBar li a.active {
+    color: white;
+}
+
+#mobile {
+    display: none;
+    justify-content: center;
+}
+
+#hero {
+    background-image: url(Image/Logo/pexels-andrea-piacquadio-3761508.jpg);
+    height: 90vh;
+    width: 100%;
+    background-position: 0% 50%;
+    background-size: cover;
+    padding: 25px 55px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#hero h2 {
+    font-size: 49px;
+    padding: 15px 0;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hero h4 {
+    font-size: 25px;
+    padding: 10px 0px 0px 0px;
+    font-weight: 700;
+
+    color: #404040;
+}
+
+#hero p {
+    color: #3d4c41;
+    padding: 0;
+}
+
+#hero button {
+
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.6);
+}
+
+.hello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 0 0;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature .fe-box .service {
+    height: 200px;
+    width: 200px;
+    padding: 10px 0px;
+    border: 0 #202020;
+    border-radius: 15px;
+
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+#feature .fe-box {
+    width: 240px;
+    height: 240px;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+    padding: 2px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
+    border: 2px solid #404040;
+    cursor: pointer;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(15, 15, 15, 4);
+    transition: 0.2s ease-in;
+}
+
+#feature .fe-box h6 {
+    padding: 9px 10px 9px 10px;
+    border: 1px;
+    line-height: 5px;
+    border-radius: 4px;
+    color: #404040;
+    background-color: #dcdcdc;
+    font-weight: 700;
+    display: inline-block;
+}
+
+#product1 .procontainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#product1 {
+
+    text-align: center;
+    padding: 40px 80px;
+}
+
+#product1 .pro {
+    height: 270px;
+    width: 50px;
+    margin: 5px;
+
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px ridge #202020;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 34px rgba(5, 5, 5, 0.6);
+    transition: 0.2s;
+}
+
+#product1 .pro h6 {
+    font-weight: 600;
+    color: #404040;
+    background-color: #dcdcdc;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: 5px;
+
+}
+
+#product1 .himi {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.him {
+
+    padding: 10px;
+    margin: 0 80px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bolder;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    background-color: #dcdcdc;
+    color: #404040;
+
+}
+
+#banner {
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #dcdcdc;
+    max-height: fit-content;
+
+}
+
+#banner h1 {
+    font-weight: bold;
+}
+
+#banner span {
+    color: rgb(235, 141, 141);
+}
+
+#quotation {
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    background-image: url(Image/banner/1000_F_106675136_tBiw9XoaiFAv2CgByz4vOIXq5xr65gFp.jpg);
+    background-position: center;
+}
+
+#quotation .form {
+    display: flex;
+    width: 40%;
+
+
+}
+
+#quotation .newstext h4 {
+    font-weight: 700;
+    padding: 2px 5px 0 0;
+}
+
+#quotation .newstext span {
+    color: aliceblue;
+}
+
+#quotation input {
+    height: 3.125rem;
+    padding: 0 1.25em;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#quotation button {
+
+    font-weight: bolder;
+    font-size: 20px;
+    height: 3.125rem;
+    padding: 0 1.25em;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: rgba(235, 5, 5, 0.744);
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 35px;
+    background-color: #dcdcdc;
+}
+
+footer .coll {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+
+}
+
+footer h4 {
+    font-size: 16px;
+    padding-bottom: 15px;
+
+}
+
+footer p {
+    font-size: 12px;
+    padding: 0 0 8px 0;
+}
+
+footer a {
+    color: #202020;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0 0 8px 0;
+    margin-bottom: 2px;
+}
+
+footer .logo {
+    height: 40px;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+footer .icon i {
+    padding: 0 5px 0 0;
+    color: rgb(72, 100, 236);
+    cursor: pointer;
+
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: whitesmoke;
+    background-color: black;
+}
+
+footer .icon i:hover,
+footer a:hover {
+    color: #fffafa;
+
+}
+
+@media (max-width:1176px) {
+    #NavBar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 280px;
+        background-color: #eeeeee;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.3);
+        padding: 80px 0 0 10px;
+        transition: 0.5s;
+    }
+
+    #NavBar.active {
+        right: 0px;
+    }
+
+    #NavBar li {
+        list-style: none;
+        padding: 0 0 20px 0;
+    }
+
+    #mobile {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    #close {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #202020;
+        font-size: 24px;
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+
+    }
+
+    #hero {
+
+        height: 70vh;
+        padding: 25px 55px;
+        background-position: top 30% right 100%;
+
+    }
+
+    #feature {
+        justify-content: center;
+    }
+
+    #feature .fe-box {
+        margin: 10px;
+    }
+
+    #product1 .procontainer {
+        justify-content: center;
+    }
+
+    #quotation .form {
+        width: 70%;
+        margin: 10px;
+    }
+
+}
+@media(max-width:1111px){
+    #prodetails {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    #prodetails.single-pro-image {
+        width: 100%;
+       margin: 0px;
+    }
+    #prodetailss.single-pro-details {
+        width: 100%;
+        padding-top: 15px;
+    }
+}
+@media (max-width: 500px) {
+    #quotation {
+        padding: 0 20px;
+        height: fit-content;
+    }
+
+    #quotation .form {
+        width: 85%;
+
+    }
+
+    .section-p1 {
+        padding: 20px;
+    }
+
+    #feature .fe-box {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    #feature .fe-box h6 {
+        line-height: 13px;
+
+    }
+
+    #feature .fe-box .service {
+        height: 97px;
+        width: 119px;
+    }
+
+    #product1 {
+
+        padding: 20px;
+    }
+
+    #product1 .pro {
+        height: 150px;
+        width: 150px;
+        min-width: 0;
+        margin: 15px;
+    }
+
+    #product1 .himi {
+        height: 71px;
+        width: 97px;
+
+    }
+    #about-header {
+     flex-direction: column;   
+      
+    }
+  
+}
+
+@media (max-width :374px) {
+    #feature .fe-box {
+        width: 130px;
+        height: 150px;
+
+    }
+
+    #feature .fe-box .service {
+        height: 97px;
+        width: 100px;
+    }
+
+    #product1 .pro {
+        height: 173px;
+        width: 125px;
+    }
+}
+
+#Prod-Header {
+    background-image: url(Image/pexels-fikri-bijey-10033425.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 14px;
+}
+#pagination{
+    text-align: center;  
+}
+#pagination a{
+    color: #202020;
+    text-decoration: none;
+   font-size:large;
+   border: 2px solid #dcdcdc;
+   height: 15px;
+   width: 15px;
+   padding: 10px;
+   margin: 5px;
+   background-color: #dcdcdc;
+   border-radius: 5px;
+
+}
+#prodetails{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+   
+
+}
+#prodetails .single-pro-image{
+    width: 40%;
+
+}
+.small-img-group{
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+   
+}
+
+.MainImg{
+margin-bottom: 8px;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.small-img-column{
+flex-basis: 24%;
+cursor: pointer;
+
+}
+.small-img{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.single-pro-details table,
+.single-pro-details th,
+.single-pro-details td{
+    border: 2px solid black;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+#prodetails .single-pro-details{
+    width: 50%;
+    padding-top: 15px;
+}
+#prodetails .single-pro-details select{
+    width: 15%;
+    padding: 5px 0;
+    margin: 25px;
+    border-radius: 3px;
+}
+#prodetails .single-pro-details button{
+    padding: 3px ;
+    margin: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(253, 148, 148);
+}
+#prodetails .single-pro-details input:focus{
+    outline: none;
+}
+#heros {
+    background-image: url(Image/Applications/166fb9cd-f4d0-4360-bdbf-a797c85c1129_Insulation-fiber-vacuum-formed-shapes-industry-application.avif);
+    height: 50vh;
+    width: 100%;
+    background-position: 0% 50%;
+    background-size: cover;
+    padding: 25px 55px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#application .application11{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 25px 50px;
+}
+#application .luffy{
+    padding-top: 50px;
+}
+#nami{
+    padding: 20px;
+    margin: 25px 70px;
+}
+#usso{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+#usso .zoroo{
+ margin: 0 50px;
+}
+#heross {
+    background-image: url(Image/Applications/main_menu_banner1478.jpg);
+    height: 50vh;
+    width: 100%;
+    background-position: 0% 50%;
+    background-size: cover;
+    padding: 25px 55px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#herosss{background-image: url(Image/wall-gray-cement-texture-background-with-light-and-shadow-of-leaves-backdrop-3d-display-studio-room-grey-concrete-floor-with-cracked-surface-pattern-and-leaves-shadow-reflect-on-empty-wall-room-vector.jpg);
+    height: 50vh;
+    width: 100%;
+    background-position: 0% 50%;
+    background-size: cover;
+    padding: 25px 55px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+#about-header{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+#about-header img{
+    width: 40%;
+    height: auto;
+}
+#about-header div{
+    padding: 40px;
+}
+#about-work{
+    text-align: center;
+    padding: 40px 80px;
+}
+#about-work .video{
+width: 40%;
+height:auto;
+margin: 30px auto 0 auto;
+}
+#about-work .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+}
+#holo{
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+padding: 40px 80px;
+}
+#holo div{
+    text-align: center;
+    width: 50%;
+}
+#herossss{
+    background-image: url(Image/wall-gray-cement-texture-background-with-light-and-shadow-of-leaves-backdrop-3d-display-studio-room-grey-concrete-floor-with-cracked-surface-pattern-and-leaves-shadow-reflect-on-empty-wall-room-vector.jpg);
+    height: 50vh;
+    width: 100%;
+    background-position: 0% 50%;
+    background-size: cover;
+    padding: 25px 55px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+#contact-details div{
+    width: 50%;
+    padding: 10px;
+}
+#contact-details .details span,
+#form-details form span{
+font-size: 12px;
+}
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+align-items: center;
+    padding: 10px 0;
+}
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 20px;
+}
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+    padding-right: 30px;
+}
+#contact-details .map iframe{
+    height: 100%;
+    width: 100%;
+}
+#form-details form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#form-details{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form input,
+#form-details form textarea{
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+#form-details form button{
+    font-weight: bolder;
+    font-size: 20px;
+    height: 3.125rem;
+    padding: 0 1.25em;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: rgba(235, 5, 5, 0.744);
+    white-space: nowrap;
+    
+}
+#form-details .people{
+    display: flex;
+    align-items: flex-start;
+}
+#form-details .people  img{
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+#form-details .people  p{
+    margin: 0px;
+    font-size: 13px;
+    line-height: 25px;
+}
+#form-details .people  p span{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #404040;
+}
+
+#owner{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
